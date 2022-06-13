@@ -1,0 +1,948 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@media screen and (max-width:999px){
+body {
+    height: 901vh;
+    overflow-x: hidden;
+    overflow-y:scroll;
+    font-size: 19px;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins'; 
+    
+  }
+  .container {
+    max-width: 300px;
+    width: 100%;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .header {
+    position: static;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size: cover;   
+    
+    
+  }
+  .header__title {
+    width: 320px;
+    height: auto;
+    position: relative;    
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    white-space: normal;
+    overflow:hidden;
+    flex-wrap: wrap;
+    
+    
+    
+    
+  }
+  .header__title span {  
+    width: 350px;
+    position: relative;    
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    white-space: normal;
+    overflow:hidden;
+    
+    
+    
+  }
+  
+  .new_head{
+    font-size: 50px;
+    position: static;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .navbar {
+    position: absolute;
+    z-index: 500;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #1c1a1a;
+    height: 70px;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar__brand {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+    font-size: 50px;
+    
+  
+  }
+  .parallax1{
+    background: url(img/parallaximg1.jpg);
+    background-attachment: fixed;
+    height: 500px;
+    position:relative;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size: cover;   
+    
+    
+
+  }
+  
+  .parallax1 .parallax-overlay1{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0);
+    opacity: 0.4;
+    
+  }
+  .parallax2{
+    background: url(img/parallaximg2.jpg);
+    background-attachment: fixed;
+    height: 500px;
+    position:relative;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size: cover;
+    
+    
+
+  }
+  
+  .parallax2 .parallax-overlay2{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0);
+    opacity: 0.4;
+    
+  }
+  .parallax3{
+    background: url(img/parallaximg3.jpg);
+    background-attachment: fixed;
+    height: 500px;
+    position:relative;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size: cover;
+    
+    
+
+  }
+  
+  .parallax3 .parallax-overlay3{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0);
+    opacity: 0.4;
+    
+  }
+  .parallax4{
+    background: url(https://img.freepik.com/free-photo/view-trevi-fountain-iconic-landmark-city-centre-rome-italy-one-most-famous-fountains-world_71337-329.jpg?w=2000);
+    background-attachment: fixed;
+    height: 500px;
+    position:relative;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size: cover;
+    
+
+  }
+  
+  .parallax4 .parallax-overlay4{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0);
+    opacity: 0.4;
+    
+  }
+  .parallax5{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/a/ae/University_of_Virginia_Rotunda_2006.jpg);
+    background-attachment: fixed;
+    height: 500px;
+    position:relative;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size: cover;
+    
+    
+
+  }
+  
+  .parallax5 .parallax-overlay5{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0);
+    opacity: 0.4;
+    
+  }
+  .parallax6{
+    background: url(https://www.webuildvalue.com/wp-content/uploads/2020/10/art-nouveau-buildings.jpeg);
+    background-attachment: fixed;
+    height: 500px;
+    position:relative;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size: cover;
+    
+    
+
+  }
+  
+  .parallax6 .parallax-overlay6{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0);
+    opacity: 0.4;
+    
+  }
+  .parallax7{
+    background: url( https://media.architecturaldigest.com/photos/5914b1cdedb7523ad67d454f/4:3/w_2000,h_1500,c_limit/johnny-depp-ph-01.jpg);
+    background-attachment: fixed;
+    height: 500px;
+    position:relative;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size: cover;
+    
+    
+
+  }
+  
+  .parallax7 .parallax-overlay7{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0);
+    opacity: 0.4;
+    
+  }
+  .parallax8{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Sydneyoperahouse_at_night.jpg/2560px-Sydneyoperahouse_at_night.jpg);
+    background-attachment: fixed;
+    height: 500px;
+    position:relative;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size: cover;
+    
+    
+
+  }
+  
+  .parallax8 .parallax-overlay8{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0);
+    opacity: 0.4;
+    
+  }
+  .parallax9{
+    background: url(https://www.dlrgroup.com/wp-content/uploads/2021/07/74_16113_00_N69_weblg-2140x1726.jpg);
+    background-attachment: fixed;
+    height: 500px;
+    position:relative;
+    position:relative;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size: cover;
+    
+    
+
+  }
+  
+  .parallax9 .parallax-overlay9{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0);
+    opacity: 0.4;
+    
+  }
+@media screen and (max-width: 400px) {
+  .header_title {
+    width: 20ch;
+    height: auto;
+    position: relative;    
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    white-space: nowrap;
+  }
+}
+
+
+
+  
+  .page-content1{
+    
+    padding:30px;
+    margin:30px;
+    
+
+  }
+  .page-content2{
+    
+    padding:30px;
+    margin:30px;
+    
+  }
+  .page-content3{
+    
+    padding:30px;
+    margin:30px;
+    
+  }
+  .page-content4{
+    padding:30px;
+    margin:30px;
+    
+  }
+  .page-content5{
+    padding:30px;
+    margin:30px;
+    
+  }
+  .page-content6{
+    padding:30px;
+    margin:30px;
+    
+  }
+  .page-content7{
+    padding:30px;
+    margin:30px;
+    
+  }
+  .page-content8{
+
+    padding:30px;
+    margin:30px;
+    
+  }
+  .page-content9{
+
+    padding:30px;
+    margin:30px;
+    
+  }
+  .page-content10{
+    padding:50px;
+    margin:50px;
+    text-align:center;
+    background-color: black;
+    position:static;
+
+  }
+  .gallery-grid{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    margin:0 auto;
+    padding-bottom:40px;
+  }
+  .gallery-grid * {
+    box-sizing: border-box;
+  }
+
+
+
+  .grid-item{
+    width: 33.33%;
+    margin: 15px 0;
+    padding:0 15px; 
+  }
+  .grid-item_inner{
+    position:relative;
+    display:flex;
+    cursor:pointer;
+    overflow: hidden;
+    height: 100%;
+
+  }
+  .grid-item_inner:before{
+    position:absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0);
+    opacity: 0.8;
+    opacity: 0;
+    z-index: 2;
+    transition: all 0.4s ease;
+    content: '';
+  }
+  .grid-item_inner:hover::before{
+    opacity:0.8;
+  }
+
+
+  .grid-item_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.4s ease
+
+  }
+  .grid-item_inner:hover .grid-item_img{
+    transform: scale(1.05);
+  }
+
+  
+  .grid-item_title{
+    position:absolute;
+    left: 15px;
+    bottom: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    opacity: 0;
+    color:#fff;
+    overflow: hidden;
+    z-index: 3;
+
+  }
+  .grid-item_title > span{
+    display: block;
+    transform: translateY(30px);
+    transition: transform 0.3s ease;
+    
+  }
+  .grid-item_inner:hover .grid-item_title > span {
+    transform: translateY(0);
+  }
+  
+
+}
+
+
+
+@media screen and (min-width:1000px){
+  body {
+      height: 804vh;
+      overflow-x: hidden;
+      overflow-y:scroll;
+      font-size: 19px;
+      margin:0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins'; 
+      
+    }
+    .container {
+      max-width: 300px;
+      width: 100%;
+      margin: auto;
+      
+    }
+    .header {
+      position: static;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-position: center center;      
+      background-repeat: no-repeat;      
+      background-attachment: fixed;      
+      background-size: cover;   
+      
+      
+    }
+    .header__title {
+      width: 20ch;
+      height: auto;
+      position: relative;    
+      color: #fff;
+      font-size: 50px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      white-space: nowrap;
+      overflow:hidden;
+      flex-wrap: wrap;
+      border-right:4px solid grey;
+      animation: text-and-border 0.75s step-end,
+      print-text 1.5s steps(20);
+      @media screen and (max-width: 350px)
+      
+    }
+    .header__title span {  
+      width: 19ch;
+      position: relative;    
+      color: #fff;
+      font-size: 50px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      white-space: nowrap;
+      overflow:hidden;
+      text-align: right;
+      
+      
+    }
+    
+    .new_head{
+      font-size: 50px;
+      position: static;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .navbar {
+      position: absolute;
+      z-index: 500;
+      left: 0;
+      top: 0;
+      width: 100%;
+      background-color: #1c1a1a;
+      height: 70px;
+      display: flex;
+      align-items: center;
+    }
+  
+    .navbar__brand {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 900;
+      font-size: 50px;
+    
+    }
+    .parallax1{
+      background: url(img/parallaximg1.jpg);
+      background-attachment: fixed;
+      height: 500px;
+      position:relative;
+      background-position: center center;      
+      background-repeat: no-repeat;      
+      background-attachment: fixed;      
+      background-size: cover;   
+      
+      
+  
+    }
+    
+    .parallax1 .parallax-overlay1{
+      position:absolute;
+      top:0;
+      left:0;
+      height:100%;
+      width:100%;
+      background:rgba(0,0,0);
+      opacity: 0.4;
+      
+    }
+    .parallax2{
+      background: url(img/parallaximg2.jpg);
+      background-attachment: fixed;
+      height: 500px;
+      position:relative;
+      background-position: center center;      
+      background-repeat: no-repeat;      
+      background-attachment: fixed;      
+      background-size: cover;
+      
+      
+  
+    }
+    
+    .parallax2 .parallax-overlay2{
+      position:absolute;
+      top:0;
+      left:0;
+      height:100%;
+      width:100%;
+      background:rgba(0,0,0);
+      opacity: 0.4;
+      
+    }
+    .parallax3{
+      background: url(img/parallaximg3.jpg);
+      background-attachment: fixed;
+      height: 500px;
+      position:relative;
+      background-position: center center;      
+      background-repeat: no-repeat;      
+      background-attachment: fixed;      
+      background-size: cover;
+      
+      
+  
+    }
+    
+    .parallax3 .parallax-overlay3{
+      position:absolute;
+      top:0;
+      left:0;
+      height:100%;
+      width:100%;
+      background:rgba(0,0,0);
+      opacity: 0.4;
+      
+    }
+    .parallax4{
+      background: url(https://img.freepik.com/free-photo/view-trevi-fountain-iconic-landmark-city-centre-rome-italy-one-most-famous-fountains-world_71337-329.jpg?w=2000);
+      background-attachment: fixed;
+      height: 500px;
+      position:relative;
+      background-position: center center;      
+      background-repeat: no-repeat;      
+      background-attachment: fixed;      
+      background-size: cover;
+      
+  
+    }
+    
+    .parallax4 .parallax-overlay4{
+      position:absolute;
+      top:0;
+      left:0;
+      height:100%;
+      width:100%;
+      background:rgba(0,0,0);
+      opacity: 0.4;
+      
+    }
+    .parallax5{
+      background: url(https://upload.wikimedia.org/wikipedia/commons/a/ae/University_of_Virginia_Rotunda_2006.jpg);
+      background-attachment: fixed;
+      height: 500px;
+      position:relative;
+      background-position: center center;      
+      background-repeat: no-repeat;      
+      background-attachment: fixed;      
+      background-size: cover;
+      
+      
+  
+    }
+    
+    .parallax5 .parallax-overlay5{
+      position:absolute;
+      top:0;
+      left:0;
+      height:100%;
+      width:100%;
+      background:rgba(0,0,0);
+      opacity: 0.4;
+      
+    }
+    .parallax6{
+      background: url(https://www.webuildvalue.com/wp-content/uploads/2020/10/art-nouveau-buildings.jpeg);
+      background-attachment: fixed;
+      height: 500px;
+      position:relative;
+      background-position: center center;      
+      background-repeat: no-repeat;      
+      background-attachment: fixed;      
+      background-size: cover;
+      
+      
+  
+    }
+    
+    .parallax6 .parallax-overlay6{
+      position:absolute;
+      top:0;
+      left:0;
+      height:100%;
+      width:100%;
+      background:rgba(0,0,0);
+      opacity: 0.4;
+      
+    }
+    .parallax7{
+      background: url( https://media.architecturaldigest.com/photos/5914b1cdedb7523ad67d454f/4:3/w_2000,h_1500,c_limit/johnny-depp-ph-01.jpg);
+      background-attachment: fixed;
+      height: 500px;
+      position:relative;
+      background-position: center center;      
+      background-repeat: no-repeat;      
+      background-attachment: fixed;      
+      background-size: cover;
+      
+      
+  
+    }
+    
+    .parallax7 .parallax-overlay7{
+      position:absolute;
+      top:0;
+      left:0;
+      height:100%;
+      width:100%;
+      background:rgba(0,0,0);
+      opacity: 0.4;
+      
+    }
+    .parallax8{
+      background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Sydneyoperahouse_at_night.jpg/2560px-Sydneyoperahouse_at_night.jpg);
+      background-attachment: fixed;
+      height: 500px;
+      position:relative;
+      background-position: center center;      
+      background-repeat: no-repeat;      
+      background-attachment: fixed;      
+      background-size: cover;
+      
+      
+  
+    }
+    
+    .parallax8 .parallax-overlay8{
+      position:absolute;
+      top:0;
+      left:0;
+      height:100%;
+      width:100%;
+      background:rgba(0,0,0);
+      opacity: 0.4;
+      
+    }
+    .parallax9{
+      background: url(https://www.dlrgroup.com/wp-content/uploads/2021/07/74_16113_00_N69_weblg-2140x1726.jpg);
+      background-attachment: fixed;
+      height: 500px;
+      position:relative;
+      position:relative;
+      background-position: center center;      
+      background-repeat: no-repeat;      
+      background-attachment: fixed;      
+      background-size: cover;
+      
+      
+  
+    }
+    
+    .parallax9 .parallax-overlay9{
+      position:absolute;
+      top:0;
+      left:0;
+      height:100%;
+      width:100%;
+      background:rgba(0,0,0);
+      opacity: 0.4;
+      
+    }
+  
+    .page-content1{
+      
+      padding:30px;
+      margin:30px;
+      
+  
+    }
+    .page-content2{
+      
+      padding:30px;
+      margin:30px;
+      
+    }
+    .page-content3{
+      
+      padding:30px;
+      margin:30px;
+      
+    }
+    .page-content4{
+      padding:30px;
+      margin:30px;
+      
+    }
+    .page-content5{
+      padding:30px;
+      margin:30px;
+      
+    }
+    .page-content6{
+      padding:30px;
+      margin:30px;
+      
+    }
+    .page-content7{
+      padding:30px;
+      margin:30px;
+      
+    }
+    .page-content8{
+  
+      padding:30px;
+      margin:30px;
+      
+    }
+    .page-content9{
+  
+      padding:30px;
+      margin:30px;
+      
+    }
+    .page-content10{
+      padding:50px;
+      margin:50px;
+      text-align:center;
+      background-color: black;
+      position:static;
+  
+    }
+    .gallery-grid{
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1140px;
+      margin:0 auto;
+      padding-top:50px;
+    }
+    .gallery-grid * {
+      box-sizing: border-box;
+    }
+
+
+
+    .grid-item{
+      width: 33.33%;
+      margin: 15px 0;
+      padding:0 15px; 
+    }
+    .grid-item_inner{
+      position:relative;
+      display:flex;
+      cursor:pointer;
+      overflow: hidden;
+      height: 100%;
+
+    }
+    .grid-item_inner:before{
+      position:absolute;
+      left: 0;
+      top:0;
+      width: 100%;
+      height: 100%;
+      background:rgba(0,0,0);
+      opacity: 0.8;
+      opacity: 0;
+      z-index: 2;
+      transition: all 0.4s ease;
+      content: '';
+    }
+    .grid-item_inner:hover::before{
+      opacity:0.8;
+    }
+
+
+    .grid-item_img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: all 0.4s ease
+
+    }
+    .grid-item_inner:hover .grid-item_img{
+      transform: scale(1.05);
+    }
+
+    
+    .grid-item_title{
+      position:absolute;
+      left: 15px;
+      bottom: 15px;
+      font-family: Arial, sans-serif;
+      font-size: 20px;
+      color:#fff;
+      overflow: hidden;
+      z-index: 3;
+
+    }
+    .grid-item_title > span{
+      display: block;
+      transform: translateY(30px);
+      transition: transform 0.3s ease;
+      
+    }
+    .grid-item_inner:hover .grid-item_title > span {
+      transform: translateY(0);
+    }
+    
+    
+    
+  
+    @keyframes text-and-border{
+        0%{
+            border-color:grey;
+        }
+        50%{
+            border-color:transparent;
+        }
+        100%{
+            border-color:grey;
+        }
+    }
+  
+  @keyframes print-text{
+      from{
+          width: 0;
+      }
+  }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

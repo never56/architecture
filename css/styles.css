@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    height: 901vh;
+    overflow-x: hidden;
+    overflow-y:scroll;
+    font-size: 19px;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins'; 
+    
+  }
+  .container {
+    max-width: 300px;
+    width: 100%;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .header {
+    position: static;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size: cover;   
+    
+    
+  }
+  .header__title {
+    width: 320px;
+    height: auto;
+    position: relative;    
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    white-space: normal;
+    overflow:hidden;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+    
+  }
+  .header__title span {  
+    width: 350px;
+    position: relative;    
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    white-space: normal;
+    overflow:hidden;
+    text-align: right;
+    
+    
+  }
+  
+  .new_head{
+    font-size: 50px;
+    position: static;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .navbar {
+    position: absolute;
+    z-index: 500;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #1c1a1a;
+    height: 70px;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar__brand {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+    font-size: 50px;
+  
+  }
+  .parallax1{
+    background: url(https://images.adsttc.com/media/images/5885/9d49/e58e/ceee/4400/0498/large_jpg/CO_Wikimedia_user_Jebulon_under_CC0_1.0.jpg?1485151527);
+    background-attachment: fixed;
+    height: 500px;
+    position:relative;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size: cover;   
+    
+    
+
+  }
+  
+  .parallax1 .parallax-overlay1{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0);
+    opacity: 0.4;
+    
+  }
+  .parallax2{
+    background: url(https://getarounditaly.com/wp-content/uploads/2019/05/88615866_m-1920x1280.jpg);
+    background-attachment: fixed;
+    height: 500px;
+    position:relative;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size: cover;
+    
+    
+
+  }
+  
+  .parallax2 .parallax-overlay2{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0);
+    opacity: 0.4;
+    
+  }
+  .parallax3{
+    background: url(https://media.architecturaldigest.com/photos/5e97830ff599b20008072740/2:1/w_2999,h_1499,c_limit/GettyImages-641350828.jpg);
+    background-attachment: fixed;
+    height: 500px;
+    position:relative;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size: cover;
+    
+    
+
+  }
+  
+  .parallax3 .parallax-overlay3{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0);
+    opacity: 0.4;
+    
+  }
+  .parallax4{
+    background: url(https://img.freepik.com/free-photo/view-trevi-fountain-iconic-landmark-city-centre-rome-italy-one-most-famous-fountains-world_71337-329.jpg?w=2000);
+    background-attachment: fixed;
+    height: 500px;
+    position:relative;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size: cover;
+    
+
+  }
+  
+  .parallax4 .parallax-overlay4{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0);
+    opacity: 0.4;
+    
+  }
+  .parallax5{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/a/ae/University_of_Virginia_Rotunda_2006.jpg);
+    background-attachment: fixed;
+    height: 500px;
+    position:relative;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size: cover;
+    
+    
+
+  }
+  
+  .parallax5 .parallax-overlay5{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0);
+    opacity: 0.4;
+    
+  }
+  .parallax6{
+    background: url(https://www.webuildvalue.com/wp-content/uploads/2020/10/art-nouveau-buildings.jpeg);
+    background-attachment: fixed;
+    height: 500px;
+    position:relative;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size: cover;
+    
+    
+
+  }
+  
+  .parallax6 .parallax-overlay6{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0);
+    opacity: 0.4;
+    
+  }
+  .parallax7{
+    background: url( https://media.architecturaldigest.com/photos/5914b1cdedb7523ad67d454f/4:3/w_2000,h_1500,c_limit/johnny-depp-ph-01.jpg);
+    background-attachment: fixed;
+    height: 500px;
+    position:relative;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size: cover;
+    
+    
+
+  }
+  
+  .parallax7 .parallax-overlay7{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0);
+    opacity: 0.4;
+    
+  }
+  .parallax8{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Sydneyoperahouse_at_night.jpg/2560px-Sydneyoperahouse_at_night.jpg);
+    background-attachment: fixed;
+    height: 500px;
+    position:relative;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size: cover;
+    
+    
+
+  }
+  
+  .parallax8 .parallax-overlay8{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0);
+    opacity: 0.4;
+    
+  }
+  .parallax9{
+    background: url(https://www.dlrgroup.com/wp-content/uploads/2021/07/74_16113_00_N69_weblg-2140x1726.jpg);
+    background-attachment: fixed;
+    height: 500px;
+    position:relative;
+    position:relative;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size: cover;
+    
+    
+
+  }
+  
+  .parallax9 .parallax-overlay9{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0);
+    opacity: 0.4;
+    
+  }
+@media screen and (max-width: 400px) {
+  .header_title {
+    width: 20ch;
+    height: auto;
+    position: relative;    
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    white-space: nowrap;
+  }
+}
+
+
+
+  
+  .page-content1{
+    
+    padding:30px;
+    margin:30px;
+    
+
+  }
+  .page-content2{
+    
+    padding:30px;
+    margin:30px;
+    
+  }
+  .page-content3{
+    
+    padding:30px;
+    margin:30px;
+    
+  }
+  .page-content4{
+    padding:30px;
+    margin:30px;
+    
+  }
+  .page-content5{
+    padding:30px;
+    margin:30px;
+    
+  }
+  .page-content6{
+    padding:30px;
+    margin:30px;
+    
+  }
+  .page-content7{
+    padding:30px;
+    margin:30px;
+    
+  }
+  .page-content8{
+
+    padding:30px;
+    margin:30px;
+    
+  }
+  .page-content9{
+
+    padding:30px;
+    margin:30px;
+    
+  }
+  .page-content10{
+    padding:50px;
+    margin:50px;
+    text-align:center;
+    background-color: black;
+    position:static;
+
+  }
+  
+
+
